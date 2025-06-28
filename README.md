@@ -100,5 +100,60 @@ Here, users can name the security group, add a description, and view pre-configu
 
 To secure access to the EC2 instance running Passbolt, users must select an existing key pair or create a new one in EC2. This ensures only authorized users can SSH into the server.
 
+## 15. Import Key Pair Dialog - Initial Setup
+![Import Key Pair Dialog](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/15.png)
+
+The AWS EC2 "Import Key Pair" dialog showing the initial setup form with fields for Name, Key pair file selection, and optional Tags. The interface allows users to either browse for a key file or paste public key contents directly into the text area.
+
+## 16. SSH Key Generation Process
+![SSH Key Generation](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/16.png)
+
+Terminal output showing the `ssh-keygen` command execution for generating an RSA key pair. The process shows the key being saved to `/home/ph/.ssh/id_rsa` with the generated fingerprint and randomart image displayed for verification.
+
+## 17. Public Key File Content
+![Public Key Content](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/17.png)
+
+Terminal display of the generated RSA public key content using `cat ~/.ssh/id_rsa.pub` command. The output shows the complete SSH-RSA public key string that will be imported into AWS EC2.
+
+## 18. Import Key Pair - Populated Form
+![Import Key Pair Populated](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/18.png)
+
+The AWS EC2 Import Key Pair dialog with the form completed - showing "passbolt" as the key name and the RSA public key content pasted into the Public key contents text area, ready for import.
+
+## 19. Successful Key Pair Import
+![Key Pair Import Success](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/19.png)
+
+AWS EC2 console showing the successful import confirmation with a green success banner "Successfully imported key pair". The Key pairs list displays the newly imported "passbolt" RSA key with creation timestamp and fingerprint information.
+
+## 20. Passbolt AMI Deployment Success
+![Passbolt Deployment Success](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/20.png)
+
+Passbolt Community Edition AMI deployment success page showing congratulations message, AMI ID (ami-00b5e8404c22acd24), and configuration details including software version 3.12.0-3 running on t2.medium instance type with usage instructions available.
+
+## 21. EC2 Instances Dashboard
+![EC2 Instances Dashboard](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/21.png)
+
+AWS EC2 Instances dashboard showing a list of 3 instances with their details including Instance IDs, states (Terminated, Running), instance types (t2.medium), status checks, and availability zones. The running instance shows public IPv4 address and DNS information.
+
+## 22. Instance Summary Details
+![Instance Summary Details](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/22.png)
+
+Detailed view of EC2 instance `i-01c52435188a7cbfb` showing comprehensive information including public/private IP addresses (184.72.186.119/172.31.44.15), instance state (Running), VPC details, subnet information, and AMI details for the Passbolt deployment.
+
+## 23. Passbolt Initial Configuration Welcome
+![Passbolt Configuration Welcome](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/23.png)
+
+Passbolt welcome screen showing the initial configuration setup with system check status. The interface displays a step-by-step configuration process (8 steps total) with environment status checks, GPG configuration confirmation, and SSL access warning notification.
+
+## 24. Domain DNS Configuration
+![Domain DNS Configuration](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/24.png)
+
+Domain management interface for `passbolt.world` showing the Advanced DNS tab with host records configuration. The interface displays an A Record pointing to IP address 184.72.186.119 with automatic TTL settings, along with DNSSEC and email forwarding options.
+
+## 25. SSH Connection to Passbolt Instance
+![SSH Connection](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/f72b98d1b5d246c4c194d2f9ec6554083eda9a23/Images/25.png)
+
+Terminal output showing SSH connection attempt to the Passbolt EC2 instance at IP 184.72.186.119. The connection displays host authenticity verification with ED25519 key fingerprint and confirms successful addition of the host to the known_hosts file.
+
 
 
