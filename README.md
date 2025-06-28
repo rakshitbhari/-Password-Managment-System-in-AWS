@@ -155,5 +155,29 @@ Domain management interface for `passbolt.world` showing the Advanced DNS tab wi
 
 Terminal output showing SSH connection attempt to the Passbolt EC2 instance at IP 184.72.186.119. The connection displays host authenticity verification with ED25519 key fingerprint and confirms successful addition of the host to the known_hosts file.
 
+## 26. SSL Setup Welcome Screen
+![SSL Setup Welcome](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/0d6f08d58619e352bc37858d03179a7bf5dd08bf/Images/26.png)
+
+The system welcomes you to your Passbolt installation and encourages SSL setup for secure web installer process. It provides the command to start SSL configuration and options for MySQL and Nginx configuration.
+
+## 27. Nginx Configuration File
+![Nginx Configuration](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/0d6f08d58619e352bc37858d03179a7bf5dd08bf/Images/27.png)
+
+Shows the Passbolt.conf Nginx configuration file with server settings including listen ports (80 and [::]:80), server name (passbolt.world), client buffer sizes, timeouts, and the file path for saving the configuration.
+
+## 28. SSL Certificate Success
+![SSL Certificate Success](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/0d6f08d58619e352bc37858d03179a7bf5dd08bf/Images/28.png)
+
+Congratulations screen showing successful HTTPS enablement for passbolt.world. Displays important notes about certificate and key file locations, expiration date (2023-07-09), and renewal instructions using certbot.
+
+## 29. Passbolt Web Setup System Check
+![Web Setup System Check](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/0d6f08d58619e352bc37858d03179a7bf5dd08bf/Images/29.png)
+
+The web-based Passbolt configuration interface showing the system check step. All environment checks are passing including GPG configuration and SSL access enablement, with a "Start configuration" button ready to proceed.
+
+## 30. Passbolt Dashboard Welcome
+![Passbolt Dashboard](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/0d6f08d58619e352bc37858d03179a7bf5dd08bf/Images/30.png)
+
+The final Passbolt dashboard interface showing a clean, empty vault with the welcome message. Features the main navigation sidebar, search functionality, and options to create the first password or wait for team member sharing.
 
 
