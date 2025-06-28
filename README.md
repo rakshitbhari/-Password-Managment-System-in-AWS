@@ -22,4 +22,4 @@ The Password Management System aims to:
 
 - AWS EC2
 - Passbolt
-- NGINX 
+- NGINX (for reverse proxy and HTTPS)
