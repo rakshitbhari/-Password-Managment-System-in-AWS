@@ -24,19 +24,17 @@ The Password Management System aims to:
 - Passbolt
 - NGINX (for reverse proxy and HTTPS)
 
-  ## 🛠️ Implementation Steps
+ ## 🛠️ Implementation Steps
 
 ### 1. AWS Console Homepage  
 ![AWS Console](images/aws_homepage.png)  
 This screenshot shows the AWS homepage where cloud services like EC2 and Route 53 are accessed. It was the starting point for launching and configuring the virtual machine hosting Passbolt.
 
----
 
 ### 2. VirtualBox Download Page  
 ![VirtualBox Download](images/virtualbox_download.png)  
 This image shows the official VirtualBox download page. VirtualBox was initially used to locally test and simulate the Passbolt deployment before migrating to the AWS cloud infrastructure.
 
----
 
 ### 3. Ubuntu 22.04 LTS Download Page  
 ![Ubuntu Download](images/ubuntu_download.png)  
