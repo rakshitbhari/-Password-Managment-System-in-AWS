@@ -23,3 +23,7 @@ The Password Management System aims to:
 - AWS EC2
 - Passbolt
 - NGINX (for reverse proxy and HTTPS)
+
+  ## 🛠️ Implementation Steps
+
+  1. **Launch an EC2 Instance on AWS**
