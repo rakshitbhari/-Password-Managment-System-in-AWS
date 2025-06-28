@@ -30,12 +30,27 @@ The Password Management System aims to:
 ![AWS Console](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/c2287f02f9955cf8b4f58d0b02ca0127a5e67217/Images/1.png)  
 This screenshot shows the AWS homepage where cloud services are accessed. It was the starting point for launching and configuring the virtual machine hosting Passbolt.
 
-
 ### 2. VirtualBox Download Page  
 ![VirtualBox Download](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/c2287f02f9955cf8b4f58d0b02ca0127a5e67217/Images/2.png)  
 This image shows the official VirtualBox download page. VirtualBox was initially used to locally test and simulate the Passbolt deployment before migrating to the AWS cloud infrastructure.
 
-
 ### 3. Ubuntu 22.04 LTS Download Page  
 ![Ubuntu Download](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/c2287f02f9955cf8b4f58d0b02ca0127a5e67217/Images/3.png)  
 Ubuntu 22.04 LTS was selected as the base OS for the EC2 instance. This screenshot shows the official download page, highlighting the latest long-term support version ideal for server deployment.
+
+### 4. Namecheap Domain Registration  
+![Namecheap Domain Registration](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/2c0a7a9f2bb3bc82a2313347bca691d838e5ad9a/Images/4.png)  
+This screenshot shows the Namecheap domain registration page, which was used to acquire and configure the domain for the Passbolt instance, enabling secure access via a custom domain name.
+
+### 5. Passbolt Homepage  
+![Passbolt Homepage](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/2c0a7a9f2bb3bc82a2313347bca691d838e5ad9a/Images/5.png)  
+This is the official Passbolt homepage, where users can access information about the product and begin either the on-premises installation or cloud setup of the password manager.
+
+### 6. Passbolt Pricing Plans  
+![Passbolt Pricing](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/2c0a7a9f2bb3bc82a2313347bca691d838e5ad9a/Images/6.png)  
+This screenshot outlines Passbolt’s pricing tiers—Community (Free), Business, and Enterprise. The self-hosted Community edition was chosen for this project, providing secure password management with no user limit.
+
+### 7. Passbolt AWS Deployment Option  
+![Passbolt AWS Deployment](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/2c0a7a9f2bb3bc82a2313347bca691d838e5ad9a/Images/7.png)  
+This image shows the deployment options for Passbolt, highlighting AWS as the selected cloud provider. The project utilized this to host the self-managed Passbolt server on a secure EC2 instance.
+
