@@ -74,4 +74,31 @@ This screenshot displays the AWS Marketplace listing for the Passbolt Community 
 
 This image provides a detailed pricing estimate for running Passbolt CE on different EC2 instance types. It includes a breakdown of software costs ($0/hr), EC2 hourly costs, and highlights the Free Tier eligibility (e.g., t2.micro for 750 hours/month). The vendor-recommended instance type, t2.medium, is selected, with a total cost of $0.046/hr.
 
+## 11. ⚙️ Configure Passbolt AMI Before Launch
+
+![Configure Passbolt AMI Before Launch](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/aa74c2e7ebcabc32edd7ba2294094e27d4691914/Images/11.png)
+
+This image shows the configuration screen on AWS Marketplace for launching the Passbolt Community Edition AMI. It includes selection of fulfillment option, software version, and region. On the right, estimated infrastructure pricing is displayed (e.g., $33/month for a `t2.medium` instance).
+
+
+## 12. 🔒 Set Up Security Group for Passbolt
+
+![Set Up Security Group for Passbolt](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/aa74c2e7ebcabc32edd7ba2294094e27d4691914/Images/12.png)
+
+This step involves configuring the security group to control traffic for your Passbolt instance. Users are guided to create a new group based on seller-recommended settings to streamline the firewall rules setup.
+
+
+## 13. 📋 Define Security Group Rules
+
+![Define Security Group Rules](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/aa74c2e7ebcabc32edd7ba2294094e27d4691914/Images/13.png)
+
+Here, users can name the security group, add a description, and view pre-configured inbound rules. SSH (port 22), HTTP (port 80), and HTTPS (port 443) are enabled for all IPs (`0.0.0.0/0`), with a caution to restrict access to known IPs for better security.
+
+## 14. 🔑 Create or Select a Key Pair
+
+![Create or Select a Key Pair](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/aa74c2e7ebcabc32edd7ba2294094e27d4691914/Images/14.png)
+
+To secure access to the EC2 instance running Passbolt, users must select an existing key pair or create a new one in EC2. This ensures only authorized users can SSH into the server.
+
+
 
