@@ -27,15 +27,15 @@ The Password Management System aims to:
  ## 🛠️ Implementation Steps
 
 ### 1. AWS Console Homepage  
-![AWS Console](images/aws_homepage.png)  
-This screenshot shows the AWS homepage where cloud services like EC2 and Route 53 are accessed. It was the starting point for launching and configuring the virtual machine hosting Passbolt.
+![AWS Console](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/c2287f02f9955cf8b4f58d0b02ca0127a5e67217/Images/1.png)  
+This screenshot shows the AWS homepage where cloud services are accessed. It was the starting point for launching and configuring the virtual machine hosting Passbolt.
 
 
 ### 2. VirtualBox Download Page  
-![VirtualBox Download](images/virtualbox_download.png)  
+![VirtualBox Download](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/c2287f02f9955cf8b4f58d0b02ca0127a5e67217/Images/2.png)  
 This image shows the official VirtualBox download page. VirtualBox was initially used to locally test and simulate the Passbolt deployment before migrating to the AWS cloud infrastructure.
 
 
 ### 3. Ubuntu 22.04 LTS Download Page  
-![Ubuntu Download](images/ubuntu_download.png)  
+![Ubuntu Download](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/c2287f02f9955cf8b4f58d0b02ca0127a5e67217/Images/3.png)  
 Ubuntu 22.04 LTS was selected as the base OS for the EC2 instance. This screenshot shows the official download page, highlighting the latest long-term support version ideal for server deployment.
