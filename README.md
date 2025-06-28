@@ -54,3 +54,24 @@ This screenshot outlines Passbolt’s pricing tiers—Community (Free), Business
 ![Passbolt AWS Deployment](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/2c0a7a9f2bb3bc82a2313347bca691d838e5ad9a/Images/7.png)  
 This image shows the deployment options for Passbolt, highlighting AWS as the selected cloud provider. The project utilized this to host the self-managed Passbolt server on a secure EC2 instance.
 
+### 8. 🛠️ Passbolt Community Edition - AWS Deployment Start Guide
+
+![Passbolt AWS Deployment Start Guide](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/6881e2392cf443865c70c9fc7141452635f59e0e/Images/8.png)
+
+This image shows the initial setup page for deploying Passbolt Community Edition on AWS. It highlights a one-click option to deploy the Passbolt CE AMI, followed by instructions for configuring the server and creating the first admin user. Options for native installations (Docker, Kubernetes, Ubuntu, etc.) are also visible on the left.
+
+
+### 9. 📦 Passbolt CE AMI on AWS Marketplace
+
+![Passbolt CE AMI on AWS Marketplace](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/6881e2392cf443865c70c9fc7141452635f59e0e/Images/9.png)
+
+This screenshot displays the AWS Marketplace listing for the Passbolt Community Edition AMI. It includes version details, OS compatibility (Debian 10), and highlights such as being API-first, secure by design, and team collaboration-friendly. The typical infrastructure pricing is also mentioned.
+
+
+### 10. 💰 Passbolt CE AWS Pricing Breakdown
+
+![Passbolt CE AWS Pricing Breakdown](https://github.com/rakshitbhari/-Password-Managment-System-in-AWS/blob/6881e2392cf443865c70c9fc7141452635f59e0e/Images/10.png)
+
+This image provides a detailed pricing estimate for running Passbolt CE on different EC2 instance types. It includes a breakdown of software costs ($0/hr), EC2 hourly costs, and highlights the Free Tier eligibility (e.g., t2.micro for 750 hours/month). The vendor-recommended instance type, t2.medium, is selected, with a total cost of $0.046/hr.
+
+
